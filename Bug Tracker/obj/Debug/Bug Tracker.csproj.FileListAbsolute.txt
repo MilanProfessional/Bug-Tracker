@@ -1,0 +1,62 @@
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe.config
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.pdb
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Form1.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Properties.Resources.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Dashboard.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Login.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Register.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.GenerateResource.cache
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.exe
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Main.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AboutUs.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\bin\Debug\FastColoredTextBox.dll
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\bin\Debug\FastColoredTextBox.xml
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.CopyComplete
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Bugs.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Admin.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminRegister.resources
+C:\Users\Nishan Dhungana\documents\visual studio 2017\Projects\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminDashboard.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe.config
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.pdb
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\FastColoredTextBox.xml
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csprojResolveAssemblyReference.cache
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Form1.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Properties.Resources.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AboutUs.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Admin.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminDashboard.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminRegister.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Bugs.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Dashboard.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Login.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Main.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Register.resources
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.GenerateResource.Cache
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.CoreCompileInputs.cache
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.exe
+C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe.config
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.pdb
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\FastColoredTextBox.xml
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csprojResolveAssemblyReference.cache
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Form1.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Properties.Resources.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AboutUs.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Admin.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminDashboard.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AdminRegister.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Bugs.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Dashboard.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Login.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Main.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Register.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.GenerateResource.Cache
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.CoreCompileInputs.cache
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.exe
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
