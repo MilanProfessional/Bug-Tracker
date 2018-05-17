@@ -156,6 +156,7 @@
             this.Controls.Add(this.panelAssigned);
             this.Controls.Add(this.panelBugs);
             this.Name = "Bugs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bugs";
             this.Load += new System.EventHandler(this.Bugs_Load);
             this.panelBugs.ResumeLayout(false);

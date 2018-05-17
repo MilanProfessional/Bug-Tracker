@@ -83,5 +83,21 @@ namespace Bug_Tracker.Views
                 }
                 }
             }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AboutUs().Show();
+        }
     }
 }
