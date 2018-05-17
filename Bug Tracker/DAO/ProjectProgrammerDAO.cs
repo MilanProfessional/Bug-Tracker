@@ -32,7 +32,8 @@ namespace Bug_Tracker.DAO
                 {
                     trans.Commit();
                     return true;
-                } else
+                }
+                else
                 {
                     return false;
                 }
@@ -157,6 +158,6 @@ namespace Bug_Tracker.DAO
             return list;
         }
 
-       
+
     }
 }

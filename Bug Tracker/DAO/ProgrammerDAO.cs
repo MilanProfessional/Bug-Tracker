@@ -44,7 +44,8 @@ namespace Bug_Tracker.DAO
                         list.Add(p);
                     }
                 }
-            } catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
@@ -81,7 +82,8 @@ namespace Bug_Tracker.DAO
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
-            } finally
+            }
+            finally
             {
                 conn.Close();
             }
@@ -93,7 +95,7 @@ namespace Bug_Tracker.DAO
         {
             conn.Open();
             SqlTransaction trans = conn.BeginTransaction();
-            
+
             try
             {
                 SqlCommand sql = new SqlCommand(null, conn);
@@ -103,7 +105,7 @@ namespace Bug_Tracker.DAO
                 sql.Parameters.AddWithValue("@fullName", t.FullName);
                 sql.Parameters.AddWithValue("@username", t.Username);
                 sql.Parameters.AddWithValue("@password", t.Password);
-                
+
                 sql.ExecuteNonQuery();
 
                 trans.Commit();
@@ -133,7 +135,7 @@ namespace Bug_Tracker.DAO
             {
                 SqlCommand sql = new SqlCommand(null, conn);
                 sql.Transaction = trans;
-                sql.CommandText = "SELECT * FROM tbl_programmer WHERE username=@username AND password=@password;SELECT SCOPE_IDENTITY()"; 
+                sql.CommandText = "SELECT * FROM tbl_programmer WHERE username=@username AND password=@password;SELECT SCOPE_IDENTITY()";
                 sql.Prepare();
                 sql.Parameters.AddWithValue("@username", username);
                 sql.Parameters.AddWithValue("@password", password);
@@ -142,11 +144,13 @@ namespace Bug_Tracker.DAO
 
                 return id;
                 //trans.Commit();
-            } catch(SqlException ex)
+            }
+            catch (SqlException ex)
             {
                 trans.Rollback();
                 throw ex;
-            } finally
+            }
+            finally
             {
                 conn.Close();
             }

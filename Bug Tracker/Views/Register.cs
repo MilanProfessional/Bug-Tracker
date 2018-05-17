@@ -54,11 +54,12 @@ namespace Bug_Tracker.Views
                     {
                         new ProgrammerDAO().Insert(p);
                         MessageBox.Show("Account created");
+                        this.Dispose();
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show(ex.Message);
-                        Console.WriteLine(ex.Message);
+                        //MessageBox.Show(ex.Message);
+                        //Console.WriteLine(ex.Message);
                     }
                 }
                 else
@@ -68,6 +69,8 @@ namespace Bug_Tracker.Views
                     {
                         new TesterDAO().Insert(p);
                         MessageBox.Show("Account created");
+                        this.Dispose();
+                      //  new Login().Show();
                     }
                     catch (SqlException ex)
                     {
@@ -77,11 +80,12 @@ namespace Bug_Tracker.Views
                             MessageBox.Show("Username already exists");
                         }
 
-                        MessageBox.Show(ex.Message);
-                        Console.WriteLine(ex.Message);
+                      //  MessageBox.Show(ex.Message);
+                      //  Console.WriteLine(ex.Message);
                     }
                 }
                 }
+
             }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

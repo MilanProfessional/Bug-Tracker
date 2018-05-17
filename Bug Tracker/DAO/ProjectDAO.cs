@@ -29,7 +29,8 @@ namespace Bug_Tracker.DAO
                 if (res > 0)
                 {
                     return true;
-                } else
+                }
+                else
                 {
                     return false;
                 }
