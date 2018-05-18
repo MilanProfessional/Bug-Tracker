@@ -60,3 +60,7 @@ E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_S
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csproj.CoreCompileInputs.cache
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.exe
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.UpdateBug.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.BugStatus.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.SymptomsAndAssign.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.TesterDashboard.resources

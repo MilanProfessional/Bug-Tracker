@@ -32,24 +32,26 @@ namespace Bug_Tracker.Views
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Username and password cann't be null");
-            } else
+            }
+            else
             {
                 AdminDAO adminDAO = new AdminDAO();
                 int id = adminDAO.IsLogin(username, password);
 
-                if (id>0)
+                if (id > 0)
                 {
                     Program.adminId = id;
                     new AdminDashboard().Show();
                     this.Hide();
-                } else
+                }
+                else
                 {
                     MessageBox.Show("Either username or password is wrong");
                 }
             }
         }
 
-        private void txtUsername_TextChanged(object sender, EventArgs e)
+        private void Admin_Load(object sender, EventArgs e)
         {
 
         }

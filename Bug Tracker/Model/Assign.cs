@@ -18,5 +18,6 @@ namespace Bug_Tracker.Model
         public DateTime DeadLine { get; set; }
         public int BugId { get; set; }
         public string Description { get; set; }
+        public Programmer programmer { get; set; }
     }
 }
