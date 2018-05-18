@@ -35,7 +35,8 @@ namespace Bug_Tracker.Views
             if (string.IsNullOrEmpty(companyName) || string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Fill up the form properly");
-            } else
+            }
+            else
             {
                 try
                 {
@@ -62,8 +63,6 @@ namespace Bug_Tracker.Views
         private void button2_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            new Admin().Show();
-
         }
     }
 }

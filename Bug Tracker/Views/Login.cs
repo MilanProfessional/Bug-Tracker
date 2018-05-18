@@ -41,7 +41,8 @@ namespace Bug_Tracker.Views
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Username and password cann't be null");
-            } else
+            }
+            else
             {
                 if (AccountType == "Programmer")
                 {
@@ -50,7 +51,8 @@ namespace Bug_Tracker.Views
                         userId = new ProgrammerDAO().IsLogin(username, password);
                         this.Hide();
                         new Main().Show();
-                    } else
+                    }
+                    else
                     {
                         MessageBox.Show("Invalid username or password");
                     }
@@ -61,7 +63,7 @@ namespace Bug_Tracker.Views
                     {
                         userId = new TesterDAO().IsLogin(username, password);
                         this.Hide();
-                        new Main().Show();
+                        new TesterDashboard().Show();
                     }
                     else
                     {
@@ -86,16 +88,6 @@ namespace Bug_Tracker.Views
         {
             this.Hide();
             new Admin().Show();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

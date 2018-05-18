@@ -15,7 +15,7 @@ namespace Bug_Tracker.Views
         public Dashboard()
         {
             InitializeComponent();
-            
+
             this.StartPosition = FormStartPosition.CenterScreen;
             //this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
@@ -33,7 +33,7 @@ namespace Bug_Tracker.Views
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

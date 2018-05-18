@@ -1,4 +1,5 @@
-﻿using Bug_Tracker.DAO;
+﻿using Bug_Tracker.Common;
+using Bug_Tracker.DAO;
 using Bug_Tracker.Model;
 using System;
 using System.Collections;
@@ -36,56 +37,37 @@ namespace Bug_Tracker.Views
             panelAssigned.AutoScroll = true;
 
             BugDAO bugDao = new BugDAO();
-            List<Bug> list = bugDao.getAllBugs();
 
-            foreach(var l in list)
+            try
             {
-                Console.WriteLine(l);
+                List<Bug> list = bugDao.getAllBugs();
+                var newLoopPanel = new LoopPanel();
+                var newUpdateBug = new UpdateBug(false);
+                newLoopPanel.loopPanel(list, panelBugs, this, newUpdateBug);
+
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+
+            try
+            {
+                List<Bug> bug = bugDao.GetAllBugsByProgrammerId(Login.userId);
+                var newLoopPanel = new LoopPanel();
+                var newUpdateBug = new UpdateBug(true);
+                newLoopPanel.loopPanel(bug, panelAssigned, this, newUpdateBug);
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
             }
 
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelBugs_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelAssigned_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -27,11 +27,13 @@ namespace Bug_Tracker.Views
         private void button1_Click(object sender, EventArgs e)
         {
             string projectName = txtProjectName.Text;
-            Project project = new Project { ProjectName = projectName};
+            Project project = new Project { ProjectName = projectName };
 
-            if (string.IsNullOrEmpty(projectName)) {
+            if (string.IsNullOrEmpty(projectName))
+            {
                 MessageBox.Show("You must add some project");
-            } else
+            }
+            else
             {
                 ProjectDAO projectDAO = new ProjectDAO();
                 projectDAO.Insert(project);
@@ -50,7 +52,7 @@ namespace Bug_Tracker.Views
 
             foreach (var p in project)
             {
-                listView1.Items.Add(p.ProjectId+","+p.ProjectName);
+                listView1.Items.Add(p.ProjectId + "," + p.ProjectName);
             }
         }
         /// <summary>
@@ -62,13 +64,13 @@ namespace Bug_Tracker.Views
             ProgrammerDAO dao = new ProgrammerDAO();
             List<Programmer> list = dao.GetAll();
 
-            foreach(var l in list)
+            foreach (var l in list)
             {
                 comboBox1.Items.Add(l.ProgrammerId + "," + l.FullName);
             }
         }
 
-        
+
         private void AdminDashboard_Load(object sender, EventArgs e)
         {
             button3.Hide();
@@ -143,7 +145,7 @@ namespace Bug_Tracker.Views
 
         private void comboBox1_DropDown(object sender, EventArgs e)
         {
-            
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -160,7 +162,8 @@ namespace Bug_Tracker.Views
             if (projectId == 0)
             {
                 MessageBox.Show("Plase select project name first");
-            } else
+            }
+            else
             {
                 ProjectProgrammerDAO projectProgrammerDAO = new ProjectProgrammerDAO();
                 ProjectProgrammer projectProgrammer = new ProjectProgrammer
@@ -219,10 +222,11 @@ namespace Bug_Tracker.Views
                 ProjectName = projectName
             };
 
-            if(string.IsNullOrEmpty(projectName))
+            if (string.IsNullOrEmpty(projectName))
             {
                 MessageBox.Show("Project name is empty");
-            } else
+            }
+            else
             {
                 listView1.Items.Clear();
                 projectDAO.Update(project);
