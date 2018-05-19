@@ -215,7 +215,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(474, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
-      //      this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // fileToolStripMenuItem
             // 
@@ -234,7 +233,6 @@
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
             this.ExitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ExitToolStripMenuItem.Text = "Exit";
-     //       this.ExitToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -253,7 +251,7 @@
             this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
             this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutUsToolStripMenuItem.Text = "About us";
-     //       this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
+            this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
             // Register
             // 

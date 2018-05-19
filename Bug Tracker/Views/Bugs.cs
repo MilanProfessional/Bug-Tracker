@@ -71,5 +71,29 @@ namespace Bug_Tracker.Views
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Do You want to quit ?", "Quit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
+        }
+
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //    new Main().Show();
+        //}
     }
 }

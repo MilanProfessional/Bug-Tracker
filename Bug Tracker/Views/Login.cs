@@ -75,8 +75,8 @@ namespace Bug_Tracker.Views
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //opening new windows form
-            Application.Exit();
+            this.Dispose();
+            new HomeScreen().Show();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -86,7 +86,7 @@ namespace Bug_Tracker.Views
 
         private void loginAsAdminToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Dispose();
             new Admin().Show();
         }
     }

@@ -56,7 +56,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(138, 38);
             this.button1.TabIndex = 18;
-            this.button1.Text = "LOGIN";
+            this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -75,7 +75,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(197, 29);
             this.textBox1.TabIndex = 16;
-          //  this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // comboBox1
             // 
@@ -183,7 +182,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 38);
             this.button2.TabIndex = 19;
-            this.button2.Text = "EXIT";
+            this.button2.Text = "Back To Home";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -195,7 +194,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(195, 182);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
-    //        this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Login
             // 

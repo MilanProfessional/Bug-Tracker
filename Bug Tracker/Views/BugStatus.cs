@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bug_Tracker
+namespace Bug_Tracker.Views
 {
-    public partial class Form1 : Form
+    public partial class BugStatus : Form
     {
-        public Form1()
+        public BugStatus()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void BugStatus_Load(object sender, EventArgs e)
         {
 
         }

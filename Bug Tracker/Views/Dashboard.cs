@@ -44,7 +44,13 @@ namespace Bug_Tracker.Views
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Dispose();
+            Program.userId = 0;
             new Login().Show();
+        }
+
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AboutUs().Show();
         }
     }
 }

@@ -63,7 +63,7 @@ namespace Bug_Tracker.Views
 
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void CutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -334,6 +334,20 @@ namespace Bug_Tracker.Views
 
                 MessageBox.Show("Added");
 
+                new Bugs().Show();
+                comboBox1.Text = "";
+                textBox1.Text = "";
+                textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "";
+                textBox7.Text = "";
+                pictureBox1.Image = null;
+                fastColoredTextBox1.Text = "";
+               // this.Dispose();
+
+
             }
         }
 
@@ -355,6 +369,26 @@ namespace Bug_Tracker.Views
         private void link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start(link.Text);
+        }
+
+        private void undoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Bugs().Show();
         }
     }
 }

@@ -42,7 +42,6 @@ C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bu
 C:\Users\Milan Adhikari\Desktop\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.exe.config
-E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Form1.resources
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Properties.Resources.resources
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.AboutUs.resources
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.Views.Admin.resources
@@ -63,3 +62,9 @@ E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_S
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.pdb
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Bug Tracker.pdb
 E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug Tracker.csprojResolveAssemblyReference.cache
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\obj\Debug\Bug_Tracker.HomeScreen.resources
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Images\bug1.jpg
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Images\bug2.jpg
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Images\bug3.jpg
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Images\bug4.jpg
+E:\The British College\My Assignments\ASE_A\c7193477_Milan_Babu_Adhikari_ASE_A_SecondAssessment\Bug Tracker\Bug Tracker\Bug Tracker\bin\Debug\Images\bug5.png
