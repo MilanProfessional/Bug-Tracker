@@ -85,7 +85,7 @@ namespace Bug_Tracker.DAO
                         programmer = new Programmer();
 
                         fixer.BugId = Convert.ToInt32(reader["bug_id"]);
-                        fixer.FixedDate = DateTime.Parse(reader["bug_id"].ToString());
+                        fixer.FixedDate = Convert.ToDateTime(reader["fixed_date"]);
                         programmer.FullName = reader["full_name"].ToString();
 
                         fixer.programmer = programmer;

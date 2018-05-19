@@ -81,7 +81,7 @@ namespace Bug_Tracker
 
         private void loginAsAdminToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            this.Hide();
             new Views.Admin().Show();
         }
 

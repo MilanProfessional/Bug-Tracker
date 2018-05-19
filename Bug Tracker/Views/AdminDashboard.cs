@@ -93,7 +93,15 @@ namespace Bug_Tracker.Views
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("Do You want to quit ?", "Quit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -246,6 +254,11 @@ namespace Bug_Tracker.Views
             bool res = projectProgrammer.Delete(programmerId);
             listBox1.Items.Clear();
             GetAllProgrammer();
+        }
+
+        private void bugStatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new BugStatus().Show();
         }
     }
 }

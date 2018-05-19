@@ -45,5 +45,18 @@ namespace Bug_Tracker.Views
             Program.userId = 0;
             new Login().Show();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Do You want to quit ?", "Quit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
+        }
     }
 }

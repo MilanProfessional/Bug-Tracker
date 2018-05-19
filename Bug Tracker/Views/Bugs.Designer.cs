@@ -68,6 +68,7 @@
             this.panelAssigned.Name = "panelAssigned";
             this.panelAssigned.Size = new System.Drawing.Size(508, 567);
             this.panelAssigned.TabIndex = 1;
+            this.panelAssigned.Paint += new System.Windows.Forms.PaintEventHandler(this.panelAssigned_Paint);
             // 
             // label2
             // 

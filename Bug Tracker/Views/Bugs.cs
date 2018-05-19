@@ -90,6 +90,11 @@ namespace Bug_Tracker.Views
             }
         }
 
+        private void panelAssigned_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         //private void button1_Click(object sender, EventArgs e)
         //{
         //    this.Close();

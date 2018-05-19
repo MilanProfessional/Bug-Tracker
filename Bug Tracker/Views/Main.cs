@@ -63,7 +63,15 @@ namespace Bug_Tracker.Views
 
         private void ExitToolsStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("Do You want to quit ?", "Quit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
         }
 
         private void CutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -198,7 +206,7 @@ namespace Bug_Tracker.Views
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)// inserting image dialog
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
@@ -217,11 +225,11 @@ namespace Bug_Tracker.Views
         {
             if (string.IsNullOrEmpty(comboBox1.SelectedItem.ToString()) || string.IsNullOrEmpty(textBox2.Text) || string.IsNullOrEmpty(textBox3.Text) || string.IsNullOrEmpty(textBox4.Text) || string.IsNullOrEmpty(textBox5.Text) || string.IsNullOrEmpty(textBox1.Text) || string.IsNullOrEmpty(textBox6.Text) || string.IsNullOrEmpty(textBox7.Text))
             {
-                MessageBox.Show("You must add all project information");
+                MessageBox.Show("Please Insert all details");
             }
             else if (string.IsNullOrEmpty(fastColoredTextBox1.Text))
             {
-                MessageBox.Show("Code field cann't be null");
+                MessageBox.Show("Please insert source code");
             }
             else
             {
@@ -246,10 +254,9 @@ namespace Bug_Tracker.Views
                 {
                     Console.WriteLine(ex.Message);
                 }
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                //image
+                
 
-
+                //for image
                 if (!string.IsNullOrEmpty(imageName))
                 {
                     string appPath = Path.GetDirectoryName(Application.ExecutablePath) + @"\code_image\";
@@ -275,8 +282,7 @@ namespace Bug_Tracker.Views
                     }
                 }
 
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                ////code
+                //for code
                 string c = fastColoredTextBox1.Text;
                 string codeFileName = DateTime.Now.Second.ToString();
 
@@ -310,8 +316,7 @@ namespace Bug_Tracker.Views
                 }
 
 
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                ////Link
+               //link
 
                 SourceControl sourceControl = new SourceControl
                 {
@@ -389,6 +394,30 @@ namespace Bug_Tracker.Views
         private void button3_Click(object sender, EventArgs e)
         {
             new Bugs().Show();
+        }
+
+        private void textBox1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyData == (Keys.Control | Keys.V))
+            {
+                try
+                {
+                    (sender as TextBox).Paste();
+                    link.Text = textBox1.Text;
+                }
+                catch (NullReferenceException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new HomeScreen().Show();
+            Program.userId = 0;
+
         }
     }
 }

@@ -21,7 +21,7 @@ namespace Bug_Tracker.Views
         public SymptomsAndAssign()
         {
             InitializeComponent();
-            button4.Hide();
+            //button4.Hide();
 
         }
 
@@ -58,47 +58,20 @@ namespace Bug_Tracker.Views
 
         private void SymptonsAndAssign_Load(object sender, EventArgs e)
         {
-            BugInformationDAO bugInformationDAO = new BugInformationDAO();
-            BugInformation bugInformation = bugInformationDAO.GetById(Program.bugId);
-
-            if (bugInformation != null)
-            {
-                button1.Hide();
-                button2.Show();
-                textBox1.Text = bugInformation.Symtons;
-                textBox2.Text = bugInformation.Cause;
-            }
-            else
-            {
-                button1.Show();
-                button2.Show();
-            }
-
-            ProgrammerDAO programmerDAO = new ProgrammerDAO();
-            List<Programmer> list = programmerDAO.GetAll();
-
-
-            foreach (var l in list)
-            {
-                comboBox1.Items.Add(l.ProgrammerId + "," + l.FullName);
-                //comboBox1.DisplayMember = l.FullName;
-                //comboBox1.ValueMember = l.ProgrammerId.ToString();
-            }
-
-            assignedUser();
+            
 
         }
 
-        private void assignedUser()
-        {
-            listBox1.Items.Clear();
-            AssignDAO assignDAO = new AssignDAO();
-            List<string> assignList = assignDAO.GetAllAssignedUsersByBugId(Program.bugId);
-            foreach (var a in assignList)
-            {
-                listBox1.Items.Add(a);
-            }
-        }
+        //private void assignedUser()
+        //{
+        //    listBox1.Items.Clear();
+        //    AssignDAO assignDAO = new AssignDAO();
+        //    List<string> assignList = assignDAO.GetAllAssignedUsersByBugId(Program.bugId);
+        //    foreach (var a in assignList)
+        //    {
+        //        listBox1.Items.Add(a);
+        //    }
+        //}
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -158,7 +131,7 @@ namespace Bug_Tracker.Views
 
         private void button3_Click(object sender, EventArgs e)
         {
-            assignedUser();
+           // assignedUser();
             Assign assign = new Assign
             {
                 AssignBy = Login.userId,
@@ -191,7 +164,7 @@ namespace Bug_Tracker.Views
 
                 if (res)
                 {
-                    assignedUser();
+                   // assignedUser();
                 }
             }
             catch (Exception ex)
@@ -205,7 +178,7 @@ namespace Bug_Tracker.Views
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            assignedUser();
+            //assignedUser();
             Assign assign = new Assign
             {
                 AssignBy = Login.userId,
@@ -237,7 +210,7 @@ namespace Bug_Tracker.Views
 
                 if (res)
                 {
-                    assignedUser();
+                   // assignedUser();
                 }
             }
             catch (Exception ex)
@@ -278,6 +251,9 @@ namespace Bug_Tracker.Views
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+
+           
+ 
             BugInformationDAO bugInformationDAO = new BugInformationDAO();
             BugInformation bugInformation = new BugInformation
             {
@@ -317,6 +293,61 @@ namespace Bug_Tracker.Views
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SymptomsAndAssign_Load(object sender, EventArgs e)
+        {
+
+            if (!Program.isTester)
+            {
+                textBox1.Enabled = false;
+                textBox2.Enabled = false;
+                button1.Hide();
+                button2.Hide();
+                button2.Enabled = false;
+                button3.Hide();
+                label3.Hide();
+                comboBox1.Hide();
+                textBox3.Hide();
+            }
+
+            BugInformationDAO bugInformationDAO = new BugInformationDAO();
+            BugInformation bugInformation = bugInformationDAO.GetById(Program.bugId);
+
+            if (bugInformation != null)
+            {
+                button1.Hide();
+                button2.Show();
+                textBox1.Text = bugInformation.Symtons;                textBox2.Text = bugInformation.Cause;
+            }
+            else
+            {
+                button1.Show();
+                button2.Show();
+            }
+
+            ProgrammerDAO programmerDAO = new ProgrammerDAO();
+            List<Programmer> list = programmerDAO.GetAll();
+
+
+            foreach (var l in list)
+            {
+                comboBox1.Items.Add(l.ProgrammerId + "," + l.FullName);
+                //comboBox1.DisplayMember = l.FullName;
+                //comboBox1.ValueMember = l.ProgrammerId.ToString();
+            }
+
+           // assignedUser();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
         {
 
         }

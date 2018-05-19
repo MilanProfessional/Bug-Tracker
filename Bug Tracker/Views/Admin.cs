@@ -16,6 +16,7 @@ namespace Bug_Tracker.Views
         public Admin()
         {
             InitializeComponent();
+            txtPassword.PasswordChar = '*';  //this will hide password by *
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,7 +30,7 @@ namespace Bug_Tracker.Views
             string username = txtUsername.Text;
             string password = txtPassword.Text;
 
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password)) // validation
             {
                 MessageBox.Show("Username and password cann't be null");
             }
@@ -54,6 +55,12 @@ namespace Bug_Tracker.Views
         private void Admin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)  // back to home
+        {
+            this.Hide();
+            new HomeScreen().Show();
         }
     }
 }

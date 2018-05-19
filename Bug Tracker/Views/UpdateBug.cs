@@ -219,7 +219,7 @@ namespace Bug_Tracker.Views
             {
                 fixerDAO.Insert(fixer);
                 bugDAO.BugFixed(Program.bugId);
-                MessageBox.Show("Oh great work");
+                MessageBox.Show("Good Work. Please find next bug if assigned....");
                 this.Dispose();
                 new Bugs().Show();
             }
@@ -257,7 +257,7 @@ namespace Bug_Tracker.Views
             {
                 fixerDAO.Insert(fixer);
                 bugDAO.BugFixed(Program.bugId);
-                MessageBox.Show("Oh great work");
+                MessageBox.Show("Good Work. Please find next bug if assigned....");
                 this.Dispose();
                 new Bugs().Show();
             }
@@ -365,7 +365,14 @@ namespace Bug_Tracker.Views
 
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(linkLabel1.Text);
+            try
+            {
+                System.Diagnostics.Process.Start(linkLabel1.Text);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -422,5 +429,37 @@ namespace Bug_Tracker.Views
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Do You want to quit ?", "Quit", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+
+            }
+        }
+
+        private void allBugsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Bugs().Show();
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.userId = 0;
+            new HomeScreen().Show();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AboutUs().Show();
+        }
+
+       
     }
 }
