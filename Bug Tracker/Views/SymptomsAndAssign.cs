@@ -33,6 +33,7 @@ namespace Bug_Tracker.Views
                 Cause = textBox2.Text,
                 Symtons = textBox1.Text,
                 BugId = Program.bugId
+                
             };
 
 
@@ -193,6 +194,7 @@ namespace Bug_Tracker.Views
             {
                 assignDAO.Insert(assign);
                 MessageBox.Show("Task assigned");
+                this.Hide();
             }
             catch (Exception ex)
             {
@@ -305,13 +307,22 @@ namespace Bug_Tracker.Views
                 textBox1.Enabled = false;
                 textBox2.Enabled = false;
                 button1.Hide();
+                button1.Enabled = false;
+                button2.Hide();
                 button2.Hide();
                 button2.Enabled = false;
                 button3.Hide();
-                label3.Hide();
+                label3.Text= "Message";
                 comboBox1.Hide();
-                textBox3.Hide();
+               // textBox3.Hide();
+                AssignDAO bugAssignMessageDao = new AssignDAO();
+                Assign bugAssignMessage = bugAssignMessageDao.GetById(Program.bugId);
+                textBox3.Text = bugAssignMessage.Description;
+                textBox3.Enabled = false;
+
+
             }
+          
 
             BugInformationDAO bugInformationDAO = new BugInformationDAO();
             BugInformation bugInformation = bugInformationDAO.GetById(Program.bugId);

@@ -39,6 +39,8 @@ namespace Bug_Tracker.Views
                 projectDAO.Insert(project);
                 listView1.Items.Clear();
                 GetAllProject();
+                MessageBox.Show("Project Added");
+                txtProjectName.Text = "";
             }
         }
 
@@ -169,7 +171,7 @@ namespace Bug_Tracker.Views
 
             if (projectId == 0)
             {
-                MessageBox.Show("Plase select project name first");
+                MessageBox.Show("Please select Project name first");
             }
             else
             {
@@ -192,6 +194,7 @@ namespace Bug_Tracker.Views
 
                 listBox1.Items.Clear();
                 GetAllProgrammer();
+                MessageBox.Show("User Added in Project");
             }
         }
 
@@ -251,14 +254,26 @@ namespace Bug_Tracker.Views
         private void button6_Click(object sender, EventArgs e)
         {
             ProjectProgrammerDAO projectProgrammer = new ProjectProgrammerDAO();
+            ProjectProgrammer deleteProjectProgrammer = new ProjectProgrammer();
             bool res = projectProgrammer.Delete(programmerId);
+            MessageBox.Show("Programmer Deleted");
             listBox1.Items.Clear();
             GetAllProgrammer();
+            
         }
 
         private void bugStatusToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new BugStatus().Show();
+        }
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+            button3.Show();
+            button4.Show();
+            textBoxUpdate.Show();
+            string[] arr = listView1.SelectedItems[0].ToString().Split(',');
+            projectId = Convert.ToInt32(arr[0]);
         }
     }
 }

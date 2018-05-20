@@ -63,9 +63,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(259, 358);
+            this.comboBox1.Location = new System.Drawing.Point(125, 358);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(218, 21);
+            this.comboBox1.Size = new System.Drawing.Size(352, 21);
             this.comboBox1.TabIndex = 19;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
             // 
@@ -74,11 +74,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(133, 359);
+            this.label3.Location = new System.Drawing.Point(8, 358);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 20);
+            this.label3.Size = new System.Drawing.Size(83, 20);
             this.label3.TabIndex = 18;
-            this.label3.Text = "Assign this task";
+            this.label3.Text = "Assign To:";
             this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // button2
@@ -149,7 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(485, 500);
+            this.ClientSize = new System.Drawing.Size(500, 579);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.comboBox1);

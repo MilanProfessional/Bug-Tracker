@@ -54,7 +54,11 @@ namespace Bug_Tracker.Views
                     try
                     {
                         new ProgrammerDAO().Insert(p);
-                        MessageBox.Show("Account created");
+                        MessageBox.Show("Programmer created");
+                        txtFullName.Text = "";
+                        txtPassword.Text = "";
+                        txtUsername.Text = "";
+                        this.Hide();
                     }
                     catch (Exception ex)
                     {
@@ -68,7 +72,11 @@ namespace Bug_Tracker.Views
                     try
                     {
                         new TesterDAO().Insert(p);
-                        MessageBox.Show("Account created");
+                        MessageBox.Show("Tester created");
+                        txtFullName.Text = "";
+                        txtPassword.Text = "";
+                        txtUsername.Text = "";
+                        this.Hide();
                     }
                     catch (SqlException ex)
                     {

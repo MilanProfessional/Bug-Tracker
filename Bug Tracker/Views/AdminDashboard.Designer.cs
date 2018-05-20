@@ -35,6 +35,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addUserToComapnyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bugStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.textBoxUpdate = new System.Windows.Forms.TextBox();
-            this.bugStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -89,7 +89,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(570, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -123,6 +123,14 @@
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
+            // bugStatusToolStripMenuItem
+            // 
+            this.bugStatusToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
+            this.bugStatusToolStripMenuItem.Name = "bugStatusToolStripMenuItem";
+            this.bugStatusToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.bugStatusToolStripMenuItem.Text = "Bug Status";
+            this.bugStatusToolStripMenuItem.Click += new System.EventHandler(this.bugStatusToolStripMenuItem_Click);
+            // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
@@ -155,7 +163,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(376, 64);
+            this.comboBox1.Location = new System.Drawing.Point(343, 63);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(173, 21);
             this.comboBox1.TabIndex = 7;
@@ -166,7 +174,7 @@
             // button2
             // 
             this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(376, 89);
+            this.button2.Location = new System.Drawing.Point(343, 90);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 23);
             this.button2.TabIndex = 8;
@@ -181,13 +189,13 @@
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Location = new System.Drawing.Point(272, 123);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(516, 313);
+            this.panel1.Size = new System.Drawing.Size(295, 313);
             this.panel1.TabIndex = 9;
             // 
             // button6
             // 
             this.button6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button6.Location = new System.Drawing.Point(258, 59);
+            this.button6.Location = new System.Drawing.Point(17, 279);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 12;
@@ -212,6 +220,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(159, 225);
             this.listBox1.TabIndex = 0;
+            this.listBox1.Click += new System.EventHandler(this.listBox1_Click);
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // button3
@@ -239,7 +248,7 @@
             // btnAdd
             // 
             this.btnAdd.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.btnAdd.Location = new System.Drawing.Point(555, 62);
+            this.btnAdd.Location = new System.Drawing.Point(522, 61);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(45, 23);
             this.btnAdd.TabIndex = 12;
@@ -254,20 +263,12 @@
             this.textBoxUpdate.Size = new System.Drawing.Size(235, 20);
             this.textBoxUpdate.TabIndex = 13;
             // 
-            // bugStatusToolStripMenuItem
-            // 
-            this.bugStatusToolStripMenuItem.BackColor = System.Drawing.Color.SkyBlue;
-            this.bugStatusToolStripMenuItem.Name = "bugStatusToolStripMenuItem";
-            this.bugStatusToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.bugStatusToolStripMenuItem.Text = "Bug Status";
-            this.bugStatusToolStripMenuItem.Click += new System.EventHandler(this.bugStatusToolStripMenuItem_Click);
-            // 
             // AdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(570, 439);
             this.Controls.Add(this.textBoxUpdate);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.button4);
